@@ -1,0 +1,20 @@
+{
+  "name": "makara-mono-repo",
+  "private": true,
+	"scripts": {
+		"dev": "pnpm --filter app run dev",
+		"build": "pnpm --recursive run build",
+		"format": "prettier --cache --check .",
+		"lint": "eslint --cache .",
+		"test": "pnpm --recursive test"
+	},
+	"devDependencies": {
+		"@changesets/cli": "2.26.1",
+		"@typescript-eslint/eslint-plugin": "6.7.3",
+		"@typescript-eslint/parser": "6.7.3",
+		"eslint": "8.40.0",
+		"eslint-config-prettier": "8.8.0",
+		"eslint-plugin-vue": "9.13.0",
+		"prettier": "2.8.8"
+	}
+}

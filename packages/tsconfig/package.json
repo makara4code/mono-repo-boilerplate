@@ -1,0 +1,13 @@
+{
+	"name": "@makara/tsconfig",
+	"version": "1.0.1",
+	"description": "TSConfig files used in project",
+	"license": "MIT",
+	"author": "Makara Nuol",
+	"exports": {
+		"./base": "./base/tsconfig.json",
+		"./node18-cjs": "./node18-cjs/tsconfig.json",
+		"./node18-esm": "./node18-esm/tsconfig.json",
+		"./vue3": "./vue3/tsconfig.json"
+	}
+}
